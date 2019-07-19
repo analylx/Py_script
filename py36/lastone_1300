@@ -1,0 +1,331 @@
+set system ne-id 13081
+set system login user admin class super-user
+set system login user admin full-name Administrator
+set system login user admin uid 100
+set system syslog archive world-readable
+set system syslog file auth.log authorization any
+set system syslog file change-log.log change-log any
+set system syslog file cron.log cron any
+set system syslog file daemon.log daemon any
+set system syslog file firewall.log firewall any
+set system syslog file interactive-commands.log interactive-commands any
+set system syslog file kernel.log kernel any
+set system syslog file procman.log procman any
+set system syslog file shadetree.log shadetree any
+set system syslog file user.log user any
+set system am-pm-server ems server-ip 200.200.1.84/255.255.0.0
+set system pm-options pm-monitor-start-time 2019-01-28,22:03:42
+set system pm-options pm-monitor-end-time 2019-02-28,22:03:42
+set system cpe-type Neptune1300_1T_pe
+set chassis mcp acp-1300
+set chassis fcu-unit fcu-1300
+set chassis mcips slot xsa mcips1t mng-port
+set chassis powersupply slot psa inf-1300
+set chassis slot ts3 data-card dhxe-2
+set chassis slot ts5 data-card dhge-4eb port ge-ts5/1 defects-profile default
+set chassis slot ts5 data-card dhge-4eb port ge-ts5/1 enable
+set chassis slot ts5 data-card dhge-4eb port ge-ts5/1 ethernet-options auto-negotiation-advertisement [ 10m-fd 100m-fd 1g-fd ]
+set chassis slot ts5 data-card dhge-4eb port ge-ts5/1 ethernet-options local-pause-mode rx-pause
+set chassis slot ts5 data-card dhge-4eb port ge-ts5/1 ethernet-options local-pause-advertisement no-pause-advertisement
+set chassis slot ts5 data-card dhge-4eb port ge-ts5/1 ethernet-options phy-type 10/100/1000Base-T
+set chassis slot ts5 data-card dhge-4eb port ge-ts5/1 hold-time-down 0
+set chassis slot ts5 data-card dhge-4eb port ge-ts5/1 hold-time-up 0
+set chassis slot ts5 data-card dhge-4eb port ge-ts5/1 pm-collection-enable
+set chassis slot ts5 data-card dhge-4eb port ge-ts5/1 statistics-enable
+set chassis slot ts5 data-card dhge-4eb port ge-ts5/1 pm-monitor-enable
+set chassis slot ts5 data-card dhge-4eb port ge-ts5/1 timing-options local-master-slave-mode prefer-single-port
+set chassis slot ts5 data-card dhge-4eb port ge-ts5/1 peer-mac-expected 00:00:00:00:00:00
+set chassis slot ts5 data-card dhge-4eb port ge-ts5/2 defects-profile default
+set chassis slot ts5 data-card dhge-4eb port ge-ts5/2 pm-collection-enable
+set chassis slot ts5 data-card dhge-4eb port ge-ts5/2 statistics-enable
+set chassis slot ts5 data-card dhge-4eb port ge-ts5/2 pm-monitor-enable
+set chassis slot ts5 data-card dhge-4eb port ge-ts5/3 defects-profile default
+set chassis slot ts5 data-card dhge-4eb port ge-ts5/3 pm-collection-enable
+set chassis slot ts5 data-card dhge-4eb port ge-ts5/3 statistics-enable
+set chassis slot ts5 data-card dhge-4eb port ge-ts5/3 pm-monitor-enable
+set chassis slot ts5 data-card dhge-4eb port ge-ts5/4 defects-profile default
+set chassis slot ts5 data-card dhge-4eb port ge-ts5/4 pm-collection-enable
+set chassis slot ts5 data-card dhge-4eb port ge-ts5/4 statistics-enable
+set chassis slot ts5 data-card dhge-4eb port ge-ts5/4 pm-monitor-enable
+set chassis slot xsa data-card amxe-4 port xe-xsa/1 defects-profile default
+set chassis slot xsa data-card amxe-4 port xe-xsa/1 enable
+set chassis slot xsa data-card amxe-4 port xe-xsa/1 ethernet-options auto-negotiation-disable
+set chassis slot xsa data-card amxe-4 port xe-xsa/1 ethernet-options duplex FULL
+set chassis slot xsa data-card amxe-4 port xe-xsa/1 ethernet-options local-pause-mode rx-pause
+set chassis slot xsa data-card amxe-4 port xe-xsa/1 ethernet-options phy-type 10GBase-R
+set chassis slot xsa data-card amxe-4 port xe-xsa/1 ethernet-options speed 10G
+set chassis slot xsa data-card amxe-4 port xe-xsa/1 ethernet-options ber-threshold 1e-5
+set chassis slot xsa data-card amxe-4 port xe-xsa/1 hold-time-down 0
+set chassis slot xsa data-card amxe-4 port xe-xsa/1 hold-time-up 0
+set chassis slot xsa data-card amxe-4 port xe-xsa/1 pm-collection-enable
+set chassis slot xsa data-card amxe-4 port xe-xsa/1 statistics-enable
+set chassis slot xsa data-card amxe-4 port xe-xsa/1 pm-monitor-enable
+set chassis slot xsa data-card amxe-4 port xe-xsa/1 timing-options synce-xe-tx-timing system
+set chassis slot xsa data-card amxe-4 port xe-xsa/1 peer-mac-expected 00:00:00:00:00:00
+set chassis slot xsa data-card amxe-4 port xe-xsa/2 enable
+set chassis slot xsa data-card amxe-4 port xe-xsa/2 ethernet-options auto-negotiation-disable
+set chassis slot xsa data-card amxe-4 port xe-xsa/2 ethernet-options duplex FULL
+set chassis slot xsa data-card amxe-4 port xe-xsa/2 ethernet-options local-pause-mode rx-pause
+set chassis slot xsa data-card amxe-4 port xe-xsa/2 ethernet-options phy-type 10GBase-R
+set chassis slot xsa data-card amxe-4 port xe-xsa/2 ethernet-options speed 10G
+set chassis slot xsa data-card amxe-4 port xe-xsa/2 ethernet-options ber-threshold 1e-5
+set chassis slot xsa data-card amxe-4 port xe-xsa/2 hold-time-down 0
+set chassis slot xsa data-card amxe-4 port xe-xsa/2 hold-time-up 0
+set chassis slot xsa data-card amxe-4 port xe-xsa/2 timing-options synce-xe-tx-timing system
+set chassis slot xsa data-card amxe-4 port xe-xsa/2 peer-mac-expected 00:00:00:00:00:00
+set chassis slot xsa data-card amxe-4 port xe-xsa/3
+set chassis slot xsa data-card amxe-4 port xe-xsa/4 enable
+set chassis slot xsa data-card amxe-4 port xe-xsa/4 ethernet-options auto-negotiation-disable
+set chassis slot xsa data-card amxe-4 port xe-xsa/4 ethernet-options duplex FULL
+set chassis slot xsa data-card amxe-4 port xe-xsa/4 ethernet-options local-pause-mode rx-pause
+set chassis slot xsa data-card amxe-4 port xe-xsa/4 ethernet-options phy-type 10GBase-R
+set chassis slot xsa data-card amxe-4 port xe-xsa/4 ethernet-options speed 10G
+set chassis slot xsa data-card amxe-4 port xe-xsa/4 ethernet-options ber-threshold 1e-5
+set chassis slot xsa data-card amxe-4 port xe-xsa/4 hold-time-down 0
+set chassis slot xsa data-card amxe-4 port xe-xsa/4 hold-time-up 0
+set chassis slot xsa data-card amxe-4 port xe-xsa/4 timing-options synce-xe-tx-timing system
+set chassis slot xsa data-card amxe-4 port xe-xsa/4 peer-mac-expected 00:00:00:00:00:00
+set chassis tmu input-settings internal-timing-enable quality-sdh sec
+set interfaces ge-ts5/1 bpdu-destination-mac 802.1ad
+set interfaces ge-ts5/1 defect-profile default
+set interfaces ge-ts5/1 extended-statistics
+set interfaces ge-ts5/1 mac-filtering-mode Disabled
+set interfaces ge-ts5/1 mpls-tp-frr-options hold-off-timer 0
+set interfaces ge-ts5/1 mpls-tp-frr-options wtr-timer 7
+set interfaces ge-ts5/1 max-frame-size 9216
+set interfaces ge-ts5/1 statistics-enable
+set interfaces ge-ts5/1 vlan-tpid Tag-default
+set interfaces ge-ts5/1 type vlan-tagged priority-tagged-frame-handling forward
+set interfaces ge-ts5/1 type vlan-tagged pvid 1
+set interfaces ge-ts5/1 type vlan-tagged untagged-frame-handling forward
+set interfaces ge-ts5/1 type vlan-tagged untagged-frame-default-cos 0
+set interfaces ge-ts5/1 unit 0 family vpls
+set interfaces ge-ts5/1 unit 0 vlan-id-list 101
+set interfaces ge-ts5/1 unit 0 policer-options no-rate-limit
+set interfaces ge-ts5/1 unit 0 egress-qos-profile default
+set interfaces ge-ts5/1 unit 0 ingress-qos-profile default
+set interfaces ge-ts5/1 unit 99 family inet address 99.130.0.81/255.255.255.0
+set interfaces ge-ts5/1 unit 99 family mpls
+set interfaces ge-ts5/1 unit 99 vlan-id-list 99
+set interfaces ge-ts5/1 unit 102 arp-options aging-timer 5
+set interfaces ge-ts5/1 unit 102 family inet address 102.0.1.81/255.255.255.0
+set interfaces ge-ts5/1 unit 102 family inet proxy-arp disable
+set interfaces ge-ts5/1 unit 102 l3-forwarding-mtu default
+set interfaces ge-ts5/1 unit 102 vlan-id-list 102
+set interfaces ge-ts5/1 unit 102 policer-options no-rate-limit
+set interfaces ge-ts5/1 unit 102 egress-qos-profile default
+set interfaces ge-ts5/1 unit 102 ingress-qos-profile default
+set interfaces ge-ts5/1 unit 102 ip-mtu 1500
+set interfaces ge-ts5/2 defect-profile default
+set interfaces ge-ts5/2 extended-statistics
+set interfaces ge-ts5/2 statistics-enable
+set interfaces ge-ts5/3 defect-profile default
+set interfaces ge-ts5/3 extended-statistics
+set interfaces ge-ts5/3 statistics-enable
+set interfaces ge-ts5/4 defect-profile default
+set interfaces ge-ts5/4 extended-statistics
+set interfaces ge-ts5/4 statistics-enable
+set interfaces xe-xsa/1 bpdu-destination-mac 802.1ad
+set interfaces xe-xsa/1 defect-profile default
+set interfaces xe-xsa/1 extended-statistics
+set interfaces xe-xsa/1 mac-filtering-mode Disabled
+set interfaces xe-xsa/1 mpls-tp-frr-options hold-off-timer 0
+set interfaces xe-xsa/1 mpls-tp-frr-options wtr-timer 7
+set interfaces xe-xsa/1 max-frame-size 9216
+set interfaces xe-xsa/1 statistics-enable
+set interfaces xe-xsa/1 vlan-tpid Tag-default
+set interfaces xe-xsa/1 type vlan-tagged priority-tagged-frame-handling forward
+set interfaces xe-xsa/1 type vlan-tagged pvid 1
+set interfaces xe-xsa/1 type vlan-tagged untagged-frame-handling forward
+set interfaces xe-xsa/1 type vlan-tagged untagged-frame-default-cos 0
+set interfaces xe-xsa/1 unit 100 family inet unnumbered lo0.0
+set interfaces xe-xsa/1 unit 100 family mpls
+set interfaces xe-xsa/1 unit 100 vlan-id-list 100
+set interfaces xe-xsa/1 unit 1000 family inet address 1.0.13.81/255.255.255.0
+set interfaces xe-xsa/1 unit 1000 family mpls
+set interfaces xe-xsa/1 unit 1000 vlan-id-list 1000
+set interfaces xe-xsa/2 bpdu-destination-mac 802.1ad
+set interfaces xe-xsa/2 mac-filtering-mode Disabled
+set interfaces xe-xsa/2 mpls-tp-frr-options hold-off-timer 0
+set interfaces xe-xsa/2 mpls-tp-frr-options wtr-timer 7
+set interfaces xe-xsa/2 max-frame-size 9216
+set interfaces xe-xsa/2 vlan-tpid Tag-default
+set interfaces xe-xsa/2 type vlan-tagged priority-tagged-frame-handling forward
+set interfaces xe-xsa/2 type vlan-tagged pvid 1
+set interfaces xe-xsa/2 type vlan-tagged untagged-frame-handling forward
+set interfaces xe-xsa/2 type vlan-tagged untagged-frame-default-cos 0
+set interfaces xe-xsa/2 unit 4090 family inet address 4.13.90.81/255.255.255.0
+set interfaces xe-xsa/2 unit 4090 family mpls
+set interfaces xe-xsa/2 unit 4090 vlan-id-list 4090
+set interfaces xe-xsa/3
+set interfaces xe-xsa/4 bpdu-destination-mac 802.1ad
+set interfaces xe-xsa/4 mac-filtering-mode Disabled
+set interfaces xe-xsa/4 mpls-tp-frr-options hold-off-timer 0
+set interfaces xe-xsa/4 mpls-tp-frr-options wtr-timer 7
+set interfaces xe-xsa/4 max-frame-size 9216
+set interfaces xe-xsa/4 vlan-tpid Tag-default
+set interfaces xe-xsa/4 type vlan-tagged priority-tagged-frame-handling forward
+set interfaces xe-xsa/4 type vlan-tagged pvid 1
+set interfaces xe-xsa/4 type vlan-tagged untagged-frame-handling forward
+set interfaces xe-xsa/4 type vlan-tagged untagged-frame-default-cos 0
+set interfaces xe-xsa/4 unit 3500 family inet address 10.12.13.81/255.255.255.0
+set interfaces xe-xsa/4 unit 3500 vlan-id-list 3500
+set interfaces irb unit 101 family inet address 101.130.0.81/255.255.255.0
+set interfaces irb unit 101 ip-mtu 1500
+set interfaces irb unit 101 vlan-id 101
+set interfaces irb unit 101 arp-options aging-timer 5
+set interfaces irb unit 101 ingress-pw-qos-profile default
+set interfaces irb unit 101 l3-forwarding-mtu default
+set interfaces lo0 unit 0 family inet address 10.1.130.81/255.255.255.255
+set interfaces pht unit 103 arp-options aging-timer 5
+set interfaces pht unit 103 family inet address 103.0.131.81/255.255.255.0
+set interfaces pht unit 103 remote-tpe 10.1.151.56 control-word
+set interfaces pht unit 103 remote-tpe 10.1.151.56 hold-off-timer 0
+set interfaces pht unit 103 remote-tpe 10.1.151.56 oam bfd minimum-receive-interval 100
+set interfaces pht unit 103 remote-tpe 10.1.151.56 oam bfd minimum-transmit-interval 100
+set interfaces pht unit 103 remote-tpe 10.1.151.56 oam bfd multiplier 3
+set interfaces pht unit 103 remote-tpe 10.1.151.56 oam bfd ttl 255
+set interfaces pht unit 103 remote-tpe 10.1.151.56 oam cos 7
+set interfaces pht unit 103 remote-tpe 10.1.151.56 oam oam-refresh-timer 30
+set interfaces pht unit 103 remote-tpe 10.1.151.56 peer-address 10.1.151.56
+set interfaces pht unit 103 remote-tpe 10.1.151.56 pw-id 103
+set interfaces pht unit 103 remote-tpe 10.1.151.56 pw-status-tlv-enable
+set interfaces pht unit 103 remote-tpe 10.1.151.56 pw-type ethernet
+set interfaces pht unit 103 remote-tpe 10.1.151.56 pw-mtu 1500
+set interfaces pht unit 103 remote-tpe 10.1.151.56 load-balance-flow-label disable
+set interfaces pht unit 103 l3-forwarding-mtu default
+set interfaces pht unit 103 vlan-id 103
+set interfaces pht unit 103 ingress-qos-profile default
+set interfaces pht unit 103 l2vpn-id 103
+set interfaces pht unit 103 ip-mtu 1500
+set class-of-service cac-options cos 0 booking-factor 1
+set class-of-service cac-options cos 1 booking-factor 1
+set class-of-service cac-options cos 2 booking-factor 1
+set class-of-service cac-options cos 3 booking-factor 1
+set class-of-service cac-options cos 4 booking-factor 1
+set class-of-service cac-options cos 5 booking-factor 1
+set class-of-service cac-options cos 6 booking-factor 1
+set class-of-service cac-options cos 7 booking-factor 1
+set class-of-service output wred auto-profiles-latency cos 0 latency 156
+set class-of-service output wred auto-profiles-latency cos 1 latency 156
+set class-of-service output wred auto-profiles-latency cos 2 latency 156
+set class-of-service output wred auto-profiles-latency cos 3 latency 156
+set class-of-service output wred auto-profiles-latency cos 4 latency 156
+set class-of-service output wred auto-profiles-latency cos 5 latency 156
+set class-of-service output wred auto-profiles-latency cos 6 latency 156
+set class-of-service output wred auto-profiles-latency cos 7 latency 156
+set class-of-service traffic-class high-class-delimiter 6
+set protocols bfd minimum-receive-interval 3.33
+set protocols bfd minimum-transmit-interval 3.33
+set protocols bfd multiplier 3
+set protocols bfd ipv6 minimum-receive-interval 100
+set protocols bfd ipv6 minimum-transmit-interval 100
+set protocols bfd ipv6 multiplier 3
+set protocols multihop-bfd source 10.12.13.81 destination 10.12.13.52 minimum-receive-interval 100
+set protocols multihop-bfd source 10.12.13.81 destination 10.12.13.52 minimum-transmit-interval 100
+set protocols multihop-bfd source 10.12.13.81 destination 10.12.13.52 multiplier 3
+set protocols ospf enable
+set protocols ospf external-preference 150
+set protocols ospf preference 10
+set protocols ospf reference-bandwidth 400
+set protocols ospf area 0.0.0.0 interface ge-ts5/1.99 hello-interval 10
+set protocols ospf area 0.0.0.0 interface ge-ts5/1.99 retransmit-interval 5
+set protocols ospf area 0.0.0.0 interface ge-ts5/1.99 transit-delay 1
+set protocols ospf area 0.0.0.0 interface ge-ts5/1.99 transmit-interval 300
+set protocols ospf area 0.0.0.0 interface ge-ts5/1.99 dead-interval 40
+set protocols ospf area 0.0.0.0 interface ge-ts5/1.99 passive
+set protocols ospf area 0.0.0.0 interface ge-ts5/1.99 fast-reroute-options
+set protocols ospf area 0.0.0.0 interface lo0.0 emulate-ptp
+set protocols ospf area 0.0.0.0 interface lo0.0 hello-interval 10
+set protocols ospf area 0.0.0.0 interface lo0.0 retransmit-interval 5
+set protocols ospf area 0.0.0.0 interface lo0.0 transit-delay 1
+set protocols ospf area 0.0.0.0 interface lo0.0 transmit-interval 300
+set protocols ospf area 0.0.0.0 interface lo0.0 dead-interval 40
+set protocols ospf area 0.0.0.0 interface lo0.0 passive
+set protocols ospf area 0.0.0.0 interface lo0.0 fast-reroute-options
+set protocols ospf area 0.0.0.0 interface xe-xsa/1.100 emulate-ptp
+set protocols ospf area 0.0.0.0 interface xe-xsa/1.100 hello-interval 10
+set protocols ospf area 0.0.0.0 interface xe-xsa/1.100 retransmit-interval 5
+set protocols ospf area 0.0.0.0 interface xe-xsa/1.100 transit-delay 1
+set protocols ospf area 0.0.0.0 interface xe-xsa/1.100 transmit-interval 300
+set protocols ospf area 0.0.0.0 interface xe-xsa/1.100 dead-interval 40
+set protocols ospf area 0.0.0.0 interface xe-xsa/1.100 metric 40
+set protocols ospf area 0.0.0.0 interface xe-xsa/1.100 bfd
+set protocols ospf area 0.0.0.0 interface xe-xsa/1.100 fast-reroute-options
+set protocols ospf area 0.0.0.0 interface xe-xsa/1.1000 hello-interval 10
+set protocols ospf area 0.0.0.0 interface xe-xsa/1.1000 retransmit-interval 5
+set protocols ospf area 0.0.0.0 interface xe-xsa/1.1000 transit-delay 1
+set protocols ospf area 0.0.0.0 interface xe-xsa/1.1000 transmit-interval 300
+set protocols ospf area 0.0.0.0 interface xe-xsa/1.1000 dead-interval 40
+set protocols ospf area 0.0.0.0 interface xe-xsa/1.1000 metric 40
+set protocols ospf area 0.0.0.0 interface xe-xsa/1.1000 fast-reroute-options
+set protocols ospf graceful-restart grace-period 120
+set protocols ldp enable
+set protocols ldp graceful-restart reconnect-timeout 90
+set protocols ldp graceful-restart recovery-time 90
+set protocols ldp hello-hold-time 0
+set protocols ldp initialization-attempts-threshold 8
+set protocols ldp keepalive-hold-time 40
+set protocols bgp autonomous-system 100
+set protocols bgp enable
+set protocols bgp export BGP
+set protocols bgp export-default accept-all
+set protocols bgp family inet labeled-unicast enable
+set protocols bgp family inet labeled-unicast path-protection-enable
+set protocols bgp family inet unicast enable
+set protocols bgp family inet-vpn labeled-unicast enable
+set protocols bgp family inet-vpn unicast enable
+set protocols bgp router-id 10.1.130.81
+set protocols ptp-1588 pm-collection-enable
+set protocols ptp-1588 pm-monitor-enable
+set switching-instances bridge-domain 1 customer Customer
+set switching-instances bridge-domain 1 interface ge-ts5/1.0 role root
+set switching-instances bridge-domain 1 l2-service-mtu 1500
+set switching-instances bridge-domain 1 l2vpn-id 1
+set switching-instances bridge-domain 1 nms-service-id 1
+set switching-instances bridge-domain 1 nms-user-label UserLabel
+set switching-instances bridge-domain 1 pw-type ethernet
+set switching-instances bridge-domain 1 remote-tpe 10.1.151.56 hold-off-timer 0
+set switching-instances bridge-domain 1 remote-tpe 10.1.151.56 load-balance-flow-label disable
+set switching-instances bridge-domain 1 remote-tpe 10.1.151.56 oam cos 7
+set switching-instances bridge-domain 1 remote-tpe 10.1.151.56 peer-address 10.1.151.56
+set switching-instances bridge-domain 1 remote-tpe 10.1.151.56 pw-id 1
+set switching-instances bridge-domain 1 remote-tpe 10.1.151.56 pw-type ethernet
+set switching-instances bridge-domain 1 remote-tpe 10.1.151.56 split-horizon-group 3
+set switching-instances bridge-domain 1 routing-interface irb.101
+set switching-instances bridge-domain 1 vfib-quota default
+set switching-options mac-learn-aging-time 300
+set switching-options pe-id 0.81.0.81
+set switching-options ccn-options
+set switching-options lacp-system-priority 32768
+set switching-options switching-mode ip-mpls_pe
+set switching-options pb-network-id 0
+set switching-options vfib-quota-options quota-crossed-action forward
+set routing-instances vrf 102 route-distinguisher 1:100
+set routing-instances vrf 102 vrf-export BGP
+set routing-instances vrf 102 interface ge-ts5/1.102
+set routing-instances vrf 102 interface pht.103
+set routing-instances vrf 102 routes-limit high-route-threshold 90
+set routing-instances vrf 102 routes-limit max-routes 0
+set routing-instances vrf 102 routing-options autonomous-system 1
+set routing-instances vrf 102 route-target both 1:100
+set routing-instances vrf 102 ingress-qos-profile default
+set routing-options
+set forwarding-options fib-size-mode ipv4_88k_mc_15k_ipv6_12k_mc_8k
+set forwarding-options max-tx-l3vpn-labels 24k
+set policy-options policy-statement 0 term 0 from protocol bgp
+set policy-options policy-statement 0 term 0 then accept
+set policy-options policy-statement BGP term BGP from protocol bgp
+set policy-options policy-statement BGP term BGP then accept
+set policy-options policy-statement BGP term VRF from protocol direct
+set policy-options policy-statement BGP term VRF then accept
+set policy-options policy-statement BGP term VRF then community
+set policy-options policy-statement BGP term LU from family inet labeled-unicast
+set policy-options policy-statement BGP term LU then accept
+set policy-options policy-statement BGPlu term 1 from protocol ospf
+set policy-options policy-statement BGPlu term 1 from route-filter 10.1.180.58/32
+set policy-options policy-statement BGPlu term 1 then accept
+set policy-options policy-statement BGPlu1 term 1 from route-filter 10.1.121.52/32
+set policy-options policy-statement BGPlu1 term 1 then accept
+set policy-options policy-statement MPLS term MPLS from family inet labeled-unicast
+set policy-options policy-statement MPLS term MPLS then accept

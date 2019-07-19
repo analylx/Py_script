@@ -1,0 +1,24 @@
+set interfaces ge-ts2/8 unit 2001 family vpls
+set interfaces ge-ts2/8 unit 2001 vlan-id-list 2001
+set switching-instances vpls 2001 interface ge-ts2/8.2001
+set switching-instances vpls 2001 remote-tpe 59.59.59.59 oam cos 7
+set switching-instances vpls 2001 remote-tpe 59.59.59.59 peer-address 59.59.59.59
+set switching-instances vpls 2001 remote-tpe 59.59.59.59 pw-status-tlv-enable
+set switching-instances vpls 2001 remote-tpe 59.59.59.59 pw-type ethernet
+set switching-instances vpls 2001 remote-tpe 59.59.59.59 static in-pw-label 20001
+set switching-instances vpls 2001 remote-tpe 59.59.59.59 static out-pw-label 20001
+set switching-instances vpls 2001 remote-tpe 59.59.59.59 static tunnel 40001
+set switching-instances vpls 2001 inni-svlan 2001
+set switching-instances vpls 2001 l2vpn-id 2001
+set interfaces ge-ts2/8 unit 2002 family vpls
+set interfaces ge-ts2/8 unit 2002 vlan-id-list 2002
+set switching-instances vpls 2002 interface ge-ts2/8.2002
+set switching-instances vpls 2002 remote-tpe 59.59.59.59 oam cos 7
+set switching-instances vpls 2002 remote-tpe 59.59.59.59 peer-address 59.59.59.59
+set switching-instances vpls 2002 remote-tpe 59.59.59.59 pw-status-tlv-enable
+set switching-instances vpls 2002 remote-tpe 59.59.59.59 pw-type ethernet
+set switching-instances vpls 2002 remote-tpe 59.59.59.59 static in-pw-label 20002
+set switching-instances vpls 2002 remote-tpe 59.59.59.59 static out-pw-label 20002
+set switching-instances vpls 2002 remote-tpe 59.59.59.59 static tunnel 40002
+set switching-instances vpls 2002 inni-svlan 2002
+set switching-instances vpls 2002 l2vpn-id 2002

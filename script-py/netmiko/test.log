@@ -1,0 +1,326 @@
+DEBUG:paramiko.transport:starting thread (client mode): 0x304ec88L
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:[u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group14-sha1', u'diffie-hellman-group-exchange-sha256'] server key:[u'ssh-rsa', u'ssh-dss'] client encrypt:[u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com'] server encrypt:[u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com'] client mac:[u'hmac-sha1', u'umac-64@openssh.com', u'hmac-ripemd160', u'hmac-sha2-256'] server mac:[u'hmac-sha1', u'umac-64@openssh.com', u'hmac-ripemd160', u'hmac-sha2-256'] client compress:[u'none'] server compress:[u'none'] client lang:[u''] server lang:[u''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.151.56: bbecbe0cf38306e6cd51cf61fe24a445
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: Last login: Fri Nov 23 10:14:54 2018 from 200.200.1.84
+
+admin@15156> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+
+admin@15156> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: terminal length 0
+
+DEBUG:netmiko:Pattern is: admin\@15156
+DEBUG:netmiko:_read_channel_expect read_data: terminal
+DEBUG:netmiko:_read_channel_expect read_data: [K
+[Ksyntax error, unknown command or argument
+admin@15156> terminallength[K
+[Ksyntax error, unknown command or argument
+admin@15156> terminallength0
+
+DEBUG:netmiko:Pattern found: admin\@15156 terminal[K
+[Ksyntax error, unknown command or argument
+admin@15156> terminallength[K
+[Ksyntax error, unknown command or argument
+admin@15156> terminallength0
+
+DEBUG:netmiko:terminal[K
+[Ksyntax error, unknown command or argument
+admin@15156> terminallength[K
+[Ksyntax error, unknown command or argument
+admin@15156> terminallength0
+
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: terminal width 511
+
+DEBUG:netmiko:Pattern is: admin\@15156
+DEBUG:netmiko:_read_channel_expect read_data: [Ksyntax error, unknown command or argument
+
+DEBUG:netmiko:_read_channel_expect read_data: 
+admin@15156> terminal[K
+[Ksyntax error, unknown command or argument
+admin@15156> terminalwidth[K
+[Ksyntax error, unknown command or argument
+admin@15156> terminalwidth511
+
+DEBUG:netmiko:Pattern found: admin\@15156 [Ksyntax error, unknown command or argument
+
+admin@15156> terminal[K
+[Ksyntax error, unknown command or argument
+admin@15156> terminalwidth[K
+[Ksyntax error, unknown command or argument
+admin@15156> terminalwidth511
+
+DEBUG:netmiko:read_channel: [Ksyntax error, unknown command or argument
+
+admin@15156> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+
+admin@15156> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+
+admin@15156> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:exit_config_mode: 
+DEBUG:netmiko:write_channel: exit
+
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x30d3c88L
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:[u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group14-sha1', u'diffie-hellman-group-exchange-sha256'] server key:[u'ssh-rsa', u'ssh-dss'] client encrypt:[u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com'] server encrypt:[u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com'] client mac:[u'hmac-sha1', u'umac-64@openssh.com', u'hmac-ripemd160', u'hmac-sha2-256'] server mac:[u'hmac-sha1', u'umac-64@openssh.com', u'hmac-ripemd160', u'hmac-sha2-256'] client compress:[u'none'] server compress:[u'none'] client lang:[u''] server lang:[u''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.151.56: bbecbe0cf38306e6cd51cf61fe24a445
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: Last login: Fri Nov 23 10:26:16 2018 from 200.200.1.84
+
+admin@15156> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+
+admin@15156> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: terminal length 0
+
+DEBUG:netmiko:Pattern is: admin\@15156
+DEBUG:netmiko:_read_channel_expect read_data: terminal
+DEBUG:netmiko:_read_channel_expect read_data: [K
+[Ksyntax error, unknown command or argument
+admin@15156> terminallength[K
+[Ksyntax error, unknown command or argument
+admin@15156> terminallength0
+
+DEBUG:netmiko:Pattern found: admin\@15156 terminal[K
+[Ksyntax error, unknown command or argument
+admin@15156> terminallength[K
+[Ksyntax error, unknown command or argument
+admin@15156> terminallength0
+
+DEBUG:netmiko:terminal[K
+[Ksyntax error, unknown command or argument
+admin@15156> terminallength[K
+[Ksyntax error, unknown command or argument
+admin@15156> terminallength0
+
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: terminal width 511
+
+DEBUG:netmiko:Pattern is: admin\@15156
+DEBUG:netmiko:_read_channel_expect read_data: [Ksyntax error, unknown command or argument
+
+admin@15156> terminal
+DEBUG:netmiko:Pattern found: admin\@15156 [Ksyntax error, unknown command or argument
+
+admin@15156> terminal
+DEBUG:netmiko:read_channel: [K
+[Ksyntax error, unknown command or argument
+admin@15156> terminalwidth[K
+[Ksyntax error, unknown command or argument
+admin@15156> terminalwidth511
+[Ksyntax error, unknown command or argument
+
+admin@15156> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+
+admin@15156> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+
+admin@15156> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: config term
+
+DEBUG:netmiko:Pattern is: admin\@15156
+DEBUG:netmiko:_read_channel_expect read_data: config
+DEBUG:netmiko:_read_channel_expect read_data: ure term
+[Kerror: unknown argument
+
+admin@15156> 
+DEBUG:netmiko:Pattern found: admin\@15156 configure term
+[Kerror: unknown argument
+
+admin@15156> 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+
+admin@15156> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x3279c88L
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:[u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group14-sha1', u'diffie-hellman-group-exchange-sha256'] server key:[u'ssh-rsa', u'ssh-dss'] client encrypt:[u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com'] server encrypt:[u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com'] client mac:[u'hmac-sha1', u'umac-64@openssh.com', u'hmac-ripemd160', u'hmac-sha2-256'] server mac:[u'hmac-sha1', u'umac-64@openssh.com', u'hmac-ripemd160', u'hmac-sha2-256'] client compress:[u'none'] server compress:[u'none'] client lang:[u''] server lang:[u''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.151.56: bbecbe0cf38306e6cd51cf61fe24a445
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: Last login: Fri Nov 23 10:31:16 2018 from 200.200.1.84
+
+admin@15156> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:read_channel: 
+
+admin@15156> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: terminal length 0
+
+DEBUG:netmiko:Pattern is: admin\@15156
+DEBUG:netmiko:_read_channel_expect read_data: terminal
+DEBUG:netmiko:_read_channel_expect read_data: [K
+[Ksyntax error, unknown command or argument
+admin@15156> terminallength[K
+[Ksyntax error, unknown command or argument
+admin@15156> terminallength0
+
+DEBUG:netmiko:Pattern found: admin\@15156 terminal[K
+[Ksyntax error, unknown command or argument
+admin@15156> terminallength[K
+[Ksyntax error, unknown command or argument
+admin@15156> terminallength0
+
+DEBUG:netmiko:terminal[K
+[Ksyntax error, unknown command or argument
+admin@15156> terminallength[K
+[Ksyntax error, unknown command or argument
+admin@15156> terminallength0
+
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: terminal width 511
+
+DEBUG:netmiko:Pattern is: admin\@15156
+DEBUG:netmiko:_read_channel_expect read_data: [Ksyntax error, unknown command or argument
+
+admin@15156> terminal
+DEBUG:netmiko:Pattern found: admin\@15156 [Ksyntax error, unknown command or argument
+
+admin@15156> terminal
+DEBUG:netmiko:read_channel: [K
+[Ksyntax error, unknown command or argument
+admin@15156> terminalwidth[K
+[Ksyntax error, unknown command or argument
+admin@15156> terminalwidth511
+[Ksyntax error, unknown command or argument
+
+admin@15156> 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:Pattern is: admin\@15156
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+admin@15156> 
+DEBUG:netmiko:Pattern found: admin\@15156 
+
+admin@15156> 
+DEBUG:netmiko:write_channel: enable
+
+DEBUG:netmiko:Pattern is: (admin\@15156|ssword)
+DEBUG:netmiko:_read_channel_expect read_data: en
+DEBUG:netmiko:_read_channel_expect read_data: able
+[Ksyntax error, unknown command or argument
+
+admin@15156> 
+DEBUG:netmiko:Pattern found: (admin\@15156|ssword) enable
+[Ksyntax error, unknown command or argument
+
+admin@15156> 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:Pattern is: admin\@15156
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+admin@15156> 
+DEBUG:netmiko:Pattern found: admin\@15156 
+
+admin@15156> 
+DEBUG:netmiko:write_channel: 
+
+DEBUG:netmiko:Pattern is: admin\@15156
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+admin@15156> 
+DEBUG:netmiko:Pattern found: admin\@15156 
+
+admin@15156> 
+DEBUG:paramiko.transport:EOF in transport thread

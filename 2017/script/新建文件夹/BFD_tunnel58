@@ -1,0 +1,220 @@
+set protocols mpls static tunnel bidirectional 41000 diffserv-enable
+set protocols mpls static tunnel bidirectional 41000 head-and-tail main bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41000 head-and-tail main in-segment interface xe-ts7/2.0 label 410000
+set protocols mpls static tunnel bidirectional 41000 head-and-tail main out-segment interface xe-ts7/2.0 label 410000
+set protocols mpls static tunnel bidirectional 41000 head-and-tail to 52.52.52.52
+set protocols mpls static tunnel bidirectional 41000 tunnel-id 41000
+set protocols mpls static tunnel bidirectional 41000 tunnel-num 41000
+set protocols mpls static tunnel bidirectional 41000 head-and-tail protection bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41000 head-and-tail protection in-segment interface xe-ts7/2.0 label 410001
+set protocols mpls static tunnel bidirectional 41000 head-and-tail protection out-segment interface xe-ts7/2.0 label 410001
+set protocols mpls static tunnel bidirectional 41001 diffserv-enable
+set protocols mpls static tunnel bidirectional 41001 head-and-tail main bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41001 head-and-tail main in-segment interface xe-ts7/2.0 label 410010
+set protocols mpls static tunnel bidirectional 41001 head-and-tail main out-segment interface xe-ts7/2.0 label 410010
+set protocols mpls static tunnel bidirectional 41001 head-and-tail to 52.52.52.52
+set protocols mpls static tunnel bidirectional 41001 tunnel-id 41001
+set protocols mpls static tunnel bidirectional 41001 tunnel-num 41001
+set protocols mpls static tunnel bidirectional 41001 head-and-tail protection bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41001 head-and-tail protection in-segment interface xe-ts7/2.0 label 410011
+set protocols mpls static tunnel bidirectional 41001 head-and-tail protection out-segment interface xe-ts7/2.0 label 410011
+set protocols mpls static tunnel bidirectional 41002 diffserv-enable
+set protocols mpls static tunnel bidirectional 41002 head-and-tail main bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41002 head-and-tail main in-segment interface xe-ts7/2.0 label 410020
+set protocols mpls static tunnel bidirectional 41002 head-and-tail main out-segment interface xe-ts7/2.0 label 410020
+set protocols mpls static tunnel bidirectional 41002 head-and-tail to 52.52.52.52
+set protocols mpls static tunnel bidirectional 41002 tunnel-id 41002
+set protocols mpls static tunnel bidirectional 41002 tunnel-num 41002
+set protocols mpls static tunnel bidirectional 41002 head-and-tail protection bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41002 head-and-tail protection in-segment interface xe-ts7/2.0 label 410021
+set protocols mpls static tunnel bidirectional 41002 head-and-tail protection out-segment interface xe-ts7/2.0 label 410021
+set protocols mpls static tunnel bidirectional 41003 diffserv-enable
+set protocols mpls static tunnel bidirectional 41003 head-and-tail main bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41003 head-and-tail main in-segment interface xe-ts7/2.0 label 410030
+set protocols mpls static tunnel bidirectional 41003 head-and-tail main out-segment interface xe-ts7/2.0 label 410030
+set protocols mpls static tunnel bidirectional 41003 head-and-tail to 52.52.52.52
+set protocols mpls static tunnel bidirectional 41003 tunnel-id 41003
+set protocols mpls static tunnel bidirectional 41003 tunnel-num 41003
+set protocols mpls static tunnel bidirectional 41003 head-and-tail protection bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41003 head-and-tail protection in-segment interface xe-ts7/2.0 label 410031
+set protocols mpls static tunnel bidirectional 41003 head-and-tail protection out-segment interface xe-ts7/2.0 label 410031
+set protocols mpls static tunnel bidirectional 41004 diffserv-enable
+set protocols mpls static tunnel bidirectional 41004 head-and-tail main bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41004 head-and-tail main in-segment interface xe-ts7/2.0 label 410040
+set protocols mpls static tunnel bidirectional 41004 head-and-tail main out-segment interface xe-ts7/2.0 label 410040
+set protocols mpls static tunnel bidirectional 41004 head-and-tail to 52.52.52.52
+set protocols mpls static tunnel bidirectional 41004 tunnel-id 41004
+set protocols mpls static tunnel bidirectional 41004 tunnel-num 41004
+set protocols mpls static tunnel bidirectional 41004 head-and-tail protection bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41004 head-and-tail protection in-segment interface xe-ts7/2.0 label 410041
+set protocols mpls static tunnel bidirectional 41004 head-and-tail protection out-segment interface xe-ts7/2.0 label 410041
+set protocols mpls static tunnel bidirectional 41005 diffserv-enable
+set protocols mpls static tunnel bidirectional 41005 head-and-tail main bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41005 head-and-tail main in-segment interface xe-ts7/2.0 label 410050
+set protocols mpls static tunnel bidirectional 41005 head-and-tail main out-segment interface xe-ts7/2.0 label 410050
+set protocols mpls static tunnel bidirectional 41005 head-and-tail to 52.52.52.52
+set protocols mpls static tunnel bidirectional 41005 tunnel-id 41005
+set protocols mpls static tunnel bidirectional 41005 tunnel-num 41005
+set protocols mpls static tunnel bidirectional 41005 head-and-tail protection bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41005 head-and-tail protection in-segment interface xe-ts7/2.0 label 410051
+set protocols mpls static tunnel bidirectional 41005 head-and-tail protection out-segment interface xe-ts7/2.0 label 410051
+set protocols mpls static tunnel bidirectional 41006 diffserv-enable
+set protocols mpls static tunnel bidirectional 41006 head-and-tail main bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41006 head-and-tail main in-segment interface xe-ts7/2.0 label 410060
+set protocols mpls static tunnel bidirectional 41006 head-and-tail main out-segment interface xe-ts7/2.0 label 410060
+set protocols mpls static tunnel bidirectional 41006 head-and-tail to 52.52.52.52
+set protocols mpls static tunnel bidirectional 41006 tunnel-id 41006
+set protocols mpls static tunnel bidirectional 41006 tunnel-num 41006
+set protocols mpls static tunnel bidirectional 41006 head-and-tail protection bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41006 head-and-tail protection in-segment interface xe-ts7/2.0 label 410061
+set protocols mpls static tunnel bidirectional 41006 head-and-tail protection out-segment interface xe-ts7/2.0 label 410061
+set protocols mpls static tunnel bidirectional 41007 diffserv-enable
+set protocols mpls static tunnel bidirectional 41007 head-and-tail main bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41007 head-and-tail main in-segment interface xe-ts7/2.0 label 410070
+set protocols mpls static tunnel bidirectional 41007 head-and-tail main out-segment interface xe-ts7/2.0 label 410070
+set protocols mpls static tunnel bidirectional 41007 head-and-tail to 52.52.52.52
+set protocols mpls static tunnel bidirectional 41007 tunnel-id 41007
+set protocols mpls static tunnel bidirectional 41007 tunnel-num 41007
+set protocols mpls static tunnel bidirectional 41007 head-and-tail protection bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41007 head-and-tail protection in-segment interface xe-ts7/2.0 label 410071
+set protocols mpls static tunnel bidirectional 41007 head-and-tail protection out-segment interface xe-ts7/2.0 label 410071
+set protocols mpls static tunnel bidirectional 41008 diffserv-enable
+set protocols mpls static tunnel bidirectional 41008 head-and-tail main bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41008 head-and-tail main in-segment interface xe-ts7/2.0 label 410080
+set protocols mpls static tunnel bidirectional 41008 head-and-tail main out-segment interface xe-ts7/2.0 label 410080
+set protocols mpls static tunnel bidirectional 41008 head-and-tail to 52.52.52.52
+set protocols mpls static tunnel bidirectional 41008 tunnel-id 41008
+set protocols mpls static tunnel bidirectional 41008 tunnel-num 41008
+set protocols mpls static tunnel bidirectional 41008 head-and-tail protection bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41008 head-and-tail protection in-segment interface xe-ts7/2.0 label 410081
+set protocols mpls static tunnel bidirectional 41008 head-and-tail protection out-segment interface xe-ts7/2.0 label 410081
+set protocols mpls static tunnel bidirectional 41009 diffserv-enable
+set protocols mpls static tunnel bidirectional 41009 head-and-tail main bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41009 head-and-tail main in-segment interface xe-ts7/2.0 label 410090
+set protocols mpls static tunnel bidirectional 41009 head-and-tail main out-segment interface xe-ts7/2.0 label 410090
+set protocols mpls static tunnel bidirectional 41009 head-and-tail to 52.52.52.52
+set protocols mpls static tunnel bidirectional 41009 tunnel-id 41009
+set protocols mpls static tunnel bidirectional 41009 tunnel-num 41009
+set protocols mpls static tunnel bidirectional 41009 head-and-tail protection bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41009 head-and-tail protection in-segment interface xe-ts7/2.0 label 410091
+set protocols mpls static tunnel bidirectional 41009 head-and-tail protection out-segment interface xe-ts7/2.0 label 410091
+set protocols mpls static tunnel bidirectional 41010 diffserv-enable
+set protocols mpls static tunnel bidirectional 41010 head-and-tail main bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41010 head-and-tail main in-segment interface xe-ts7/2.0 label 410100
+set protocols mpls static tunnel bidirectional 41010 head-and-tail main out-segment interface xe-ts7/2.0 label 410100
+set protocols mpls static tunnel bidirectional 41010 head-and-tail to 52.52.52.52
+set protocols mpls static tunnel bidirectional 41010 tunnel-id 41010
+set protocols mpls static tunnel bidirectional 41010 tunnel-num 41010
+set protocols mpls static tunnel bidirectional 41010 head-and-tail protection bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41010 head-and-tail protection in-segment interface xe-ts7/2.0 label 410101
+set protocols mpls static tunnel bidirectional 41010 head-and-tail protection out-segment interface xe-ts7/2.0 label 410101
+set protocols mpls static tunnel bidirectional 41000 diffserv-enable
+set protocols mpls static tunnel bidirectional 41000 head-and-tail main bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41000 head-and-tail main in-segment interface xe-ts7/2.0 label 410000
+set protocols mpls static tunnel bidirectional 41000 head-and-tail main out-segment interface xe-ts7/2.0 label 410000
+set protocols mpls static tunnel bidirectional 41000 head-and-tail to 52.52.52.52
+set protocols mpls static tunnel bidirectional 41000 tunnel-id 41000
+set protocols mpls static tunnel bidirectional 41000 tunnel-num 41000
+set protocols mpls static tunnel bidirectional 41000 head-and-tail protection bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41000 head-and-tail protection in-segment interface xe-ts7/2.0 label 410001
+set protocols mpls static tunnel bidirectional 41000 head-and-tail protection out-segment interface xe-ts7/2.0 label 410001
+set protocols mpls static tunnel bidirectional 41001 diffserv-enable
+set protocols mpls static tunnel bidirectional 41001 head-and-tail main bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41001 head-and-tail main in-segment interface xe-ts7/2.0 label 410010
+set protocols mpls static tunnel bidirectional 41001 head-and-tail main out-segment interface xe-ts7/2.0 label 410010
+set protocols mpls static tunnel bidirectional 41001 head-and-tail to 52.52.52.52
+set protocols mpls static tunnel bidirectional 41001 tunnel-id 41001
+set protocols mpls static tunnel bidirectional 41001 tunnel-num 41001
+set protocols mpls static tunnel bidirectional 41001 head-and-tail protection bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41001 head-and-tail protection in-segment interface xe-ts7/2.0 label 410011
+set protocols mpls static tunnel bidirectional 41001 head-and-tail protection out-segment interface xe-ts7/2.0 label 410011
+set protocols mpls static tunnel bidirectional 41002 diffserv-enable
+set protocols mpls static tunnel bidirectional 41002 head-and-tail main bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41002 head-and-tail main in-segment interface xe-ts7/2.0 label 410020
+set protocols mpls static tunnel bidirectional 41002 head-and-tail main out-segment interface xe-ts7/2.0 label 410020
+set protocols mpls static tunnel bidirectional 41002 head-and-tail to 52.52.52.52
+set protocols mpls static tunnel bidirectional 41002 tunnel-id 41002
+set protocols mpls static tunnel bidirectional 41002 tunnel-num 41002
+set protocols mpls static tunnel bidirectional 41002 head-and-tail protection bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41002 head-and-tail protection in-segment interface xe-ts7/2.0 label 410021
+set protocols mpls static tunnel bidirectional 41002 head-and-tail protection out-segment interface xe-ts7/2.0 label 410021
+set protocols mpls static tunnel bidirectional 41003 diffserv-enable
+set protocols mpls static tunnel bidirectional 41003 head-and-tail main bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41003 head-and-tail main in-segment interface xe-ts7/2.0 label 410030
+set protocols mpls static tunnel bidirectional 41003 head-and-tail main out-segment interface xe-ts7/2.0 label 410030
+set protocols mpls static tunnel bidirectional 41003 head-and-tail to 52.52.52.52
+set protocols mpls static tunnel bidirectional 41003 tunnel-id 41003
+set protocols mpls static tunnel bidirectional 41003 tunnel-num 41003
+set protocols mpls static tunnel bidirectional 41003 head-and-tail protection bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41003 head-and-tail protection in-segment interface xe-ts7/2.0 label 410031
+set protocols mpls static tunnel bidirectional 41003 head-and-tail protection out-segment interface xe-ts7/2.0 label 410031
+set protocols mpls static tunnel bidirectional 41004 diffserv-enable
+set protocols mpls static tunnel bidirectional 41004 head-and-tail main bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41004 head-and-tail main in-segment interface xe-ts7/2.0 label 410040
+set protocols mpls static tunnel bidirectional 41004 head-and-tail main out-segment interface xe-ts7/2.0 label 410040
+set protocols mpls static tunnel bidirectional 41004 head-and-tail to 52.52.52.52
+set protocols mpls static tunnel bidirectional 41004 tunnel-id 41004
+set protocols mpls static tunnel bidirectional 41004 tunnel-num 41004
+set protocols mpls static tunnel bidirectional 41004 head-and-tail protection bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41004 head-and-tail protection in-segment interface xe-ts7/2.0 label 410041
+set protocols mpls static tunnel bidirectional 41004 head-and-tail protection out-segment interface xe-ts7/2.0 label 410041
+set protocols mpls static tunnel bidirectional 41005 diffserv-enable
+set protocols mpls static tunnel bidirectional 41005 head-and-tail main bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41005 head-and-tail main in-segment interface xe-ts7/2.0 label 410050
+set protocols mpls static tunnel bidirectional 41005 head-and-tail main out-segment interface xe-ts7/2.0 label 410050
+set protocols mpls static tunnel bidirectional 41005 head-and-tail to 52.52.52.52
+set protocols mpls static tunnel bidirectional 41005 tunnel-id 41005
+set protocols mpls static tunnel bidirectional 41005 tunnel-num 41005
+set protocols mpls static tunnel bidirectional 41005 head-and-tail protection bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41005 head-and-tail protection in-segment interface xe-ts7/2.0 label 410051
+set protocols mpls static tunnel bidirectional 41005 head-and-tail protection out-segment interface xe-ts7/2.0 label 410051
+set protocols mpls static tunnel bidirectional 41006 diffserv-enable
+set protocols mpls static tunnel bidirectional 41006 head-and-tail main bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41006 head-and-tail main in-segment interface xe-ts7/2.0 label 410060
+set protocols mpls static tunnel bidirectional 41006 head-and-tail main out-segment interface xe-ts7/2.0 label 410060
+set protocols mpls static tunnel bidirectional 41006 head-and-tail to 52.52.52.52
+set protocols mpls static tunnel bidirectional 41006 tunnel-id 41006
+set protocols mpls static tunnel bidirectional 41006 tunnel-num 41006
+set protocols mpls static tunnel bidirectional 41006 head-and-tail protection bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41006 head-and-tail protection in-segment interface xe-ts7/2.0 label 410061
+set protocols mpls static tunnel bidirectional 41006 head-and-tail protection out-segment interface xe-ts7/2.0 label 410061
+set protocols mpls static tunnel bidirectional 41007 diffserv-enable
+set protocols mpls static tunnel bidirectional 41007 head-and-tail main bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41007 head-and-tail main in-segment interface xe-ts7/2.0 label 410070
+set protocols mpls static tunnel bidirectional 41007 head-and-tail main out-segment interface xe-ts7/2.0 label 410070
+set protocols mpls static tunnel bidirectional 41007 head-and-tail to 52.52.52.52
+set protocols mpls static tunnel bidirectional 41007 tunnel-id 41007
+set protocols mpls static tunnel bidirectional 41007 tunnel-num 41007
+set protocols mpls static tunnel bidirectional 41007 head-and-tail protection bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41007 head-and-tail protection in-segment interface xe-ts7/2.0 label 410071
+set protocols mpls static tunnel bidirectional 41007 head-and-tail protection out-segment interface xe-ts7/2.0 label 410071
+set protocols mpls static tunnel bidirectional 41008 diffserv-enable
+set protocols mpls static tunnel bidirectional 41008 head-and-tail main bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41008 head-and-tail main in-segment interface xe-ts7/2.0 label 410080
+set protocols mpls static tunnel bidirectional 41008 head-and-tail main out-segment interface xe-ts7/2.0 label 410080
+set protocols mpls static tunnel bidirectional 41008 head-and-tail to 52.52.52.52
+set protocols mpls static tunnel bidirectional 41008 tunnel-id 41008
+set protocols mpls static tunnel bidirectional 41008 tunnel-num 41008
+set protocols mpls static tunnel bidirectional 41008 head-and-tail protection bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41008 head-and-tail protection in-segment interface xe-ts7/2.0 label 410081
+set protocols mpls static tunnel bidirectional 41008 head-and-tail protection out-segment interface xe-ts7/2.0 label 410081
+set protocols mpls static tunnel bidirectional 41009 diffserv-enable
+set protocols mpls static tunnel bidirectional 41009 head-and-tail main bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41009 head-and-tail main in-segment interface xe-ts7/2.0 label 410090
+set protocols mpls static tunnel bidirectional 41009 head-and-tail main out-segment interface xe-ts7/2.0 label 410090
+set protocols mpls static tunnel bidirectional 41009 head-and-tail to 52.52.52.52
+set protocols mpls static tunnel bidirectional 41009 tunnel-id 41009
+set protocols mpls static tunnel bidirectional 41009 tunnel-num 41009
+set protocols mpls static tunnel bidirectional 41009 head-and-tail protection bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41009 head-and-tail protection in-segment interface xe-ts7/2.0 label 410091
+set protocols mpls static tunnel bidirectional 41009 head-and-tail protection out-segment interface xe-ts7/2.0 label 410091
+set protocols mpls static tunnel bidirectional 41010 diffserv-enable
+set protocols mpls static tunnel bidirectional 41010 head-and-tail main bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41010 head-and-tail main in-segment interface xe-ts7/2.0 label 410100
+set protocols mpls static tunnel bidirectional 41010 head-and-tail main out-segment interface xe-ts7/2.0 label 410100
+set protocols mpls static tunnel bidirectional 41010 head-and-tail to 52.52.52.52
+set protocols mpls static tunnel bidirectional 41010 tunnel-id 41010
+set protocols mpls static tunnel bidirectional 41010 tunnel-num 41010
+set protocols mpls static tunnel bidirectional 41010 head-and-tail protection bfd minimum-receive-interval 3.33 minimum-transmit-interval 3.33 multiplier 3
+set protocols mpls static tunnel bidirectional 41010 head-and-tail protection in-segment interface xe-ts7/2.0 label 410101
+set protocols mpls static tunnel bidirectional 41010 head-and-tail protection out-segment interface xe-ts7/2.0 label 410101

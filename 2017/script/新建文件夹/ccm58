@@ -1,0 +1,200 @@
+set interfaces ge-ts2/6 unit 2001 vlan-id-list 2001
+set interfaces ge-ts2/6 unit 2001 family vpls
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2001 ccm-options enable
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2001 ccm-options interval 100ms
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2001 cos 0
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2001 instance 2001
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2001 mep 2101 enable
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2001 mep 2101 direction up
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2001 mep 2101 interface ge-ts2/6.2001
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2001 remote-mep 2001 destination-mac 00:00:00:00:00:00
+set switching-instances vpls 2001 interface ge-ts2/6.2001 role root
+set switching-instances vpls 2001 nms-service-id 2001
+set switching-instances vpls 2001 pw-type ethernet
+set switching-instances vpls 2001 remote-tpe 59.59.59.59 oam cos 7
+set switching-instances vpls 2001 remote-tpe 59.59.59.59 peer-address 59.59.59.59
+set switching-instances vpls 2001 remote-tpe 59.59.59.59 pw-type ethernet
+set switching-instances vpls 2001 remote-tpe 59.59.59.59 static in-pw-label 3101
+set switching-instances vpls 2001 remote-tpe 59.59.59.59 static out-pw-label 3101
+set switching-instances vpls 2001 remote-tpe 59.59.59.59 static tunnel 51000
+set switching-instances vpls 2001 l2vpn-id 2001
+set interfaces ge-ts2/6 unit 2002 vlan-id-list 2002
+set interfaces ge-ts2/6 unit 2002 family vpls
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2002 ccm-options enable
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2002 ccm-options interval 100ms
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2002 cos 0
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2002 instance 2002
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2002 mep 2102 enable
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2002 mep 2102 direction up
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2002 mep 2102 interface ge-ts2/6.2002
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2002 remote-mep 2002 destination-mac 00:00:00:00:00:00
+set switching-instances vpls 2002 interface ge-ts2/6.2002 role root
+set switching-instances vpls 2002 nms-service-id 2002
+set switching-instances vpls 2002 pw-type ethernet
+set switching-instances vpls 2002 remote-tpe 59.59.59.59 oam cos 7
+set switching-instances vpls 2002 remote-tpe 59.59.59.59 peer-address 59.59.59.59
+set switching-instances vpls 2002 remote-tpe 59.59.59.59 pw-type ethernet
+set switching-instances vpls 2002 remote-tpe 59.59.59.59 static in-pw-label 3102
+set switching-instances vpls 2002 remote-tpe 59.59.59.59 static out-pw-label 3102
+set switching-instances vpls 2002 remote-tpe 59.59.59.59 static tunnel 51000
+set switching-instances vpls 2002 l2vpn-id 2002
+set interfaces ge-ts2/6 unit 2003 vlan-id-list 2003
+set interfaces ge-ts2/6 unit 2003 family vpls
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2003 ccm-options enable
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2003 ccm-options interval 100ms
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2003 cos 0
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2003 instance 2003
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2003 mep 2103 enable
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2003 mep 2103 direction up
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2003 mep 2103 interface ge-ts2/6.2003
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2003 remote-mep 2003 destination-mac 00:00:00:00:00:00
+set switching-instances vpls 2003 interface ge-ts2/6.2003 role root
+set switching-instances vpls 2003 nms-service-id 2003
+set switching-instances vpls 2003 pw-type ethernet
+set switching-instances vpls 2003 remote-tpe 59.59.59.59 oam cos 7
+set switching-instances vpls 2003 remote-tpe 59.59.59.59 peer-address 59.59.59.59
+set switching-instances vpls 2003 remote-tpe 59.59.59.59 pw-type ethernet
+set switching-instances vpls 2003 remote-tpe 59.59.59.59 static in-pw-label 3103
+set switching-instances vpls 2003 remote-tpe 59.59.59.59 static out-pw-label 3103
+set switching-instances vpls 2003 remote-tpe 59.59.59.59 static tunnel 51000
+set switching-instances vpls 2003 l2vpn-id 2003
+set interfaces ge-ts2/6 unit 2004 vlan-id-list 2004
+set interfaces ge-ts2/6 unit 2004 family vpls
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2004 ccm-options enable
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2004 ccm-options interval 100ms
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2004 cos 0
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2004 instance 2004
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2004 mep 2104 enable
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2004 mep 2104 direction up
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2004 mep 2104 interface ge-ts2/6.2004
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2004 remote-mep 2004 destination-mac 00:00:00:00:00:00
+set switching-instances vpls 2004 interface ge-ts2/6.2004 role root
+set switching-instances vpls 2004 nms-service-id 2004
+set switching-instances vpls 2004 pw-type ethernet
+set switching-instances vpls 2004 remote-tpe 59.59.59.59 oam cos 7
+set switching-instances vpls 2004 remote-tpe 59.59.59.59 peer-address 59.59.59.59
+set switching-instances vpls 2004 remote-tpe 59.59.59.59 pw-type ethernet
+set switching-instances vpls 2004 remote-tpe 59.59.59.59 static in-pw-label 3104
+set switching-instances vpls 2004 remote-tpe 59.59.59.59 static out-pw-label 3104
+set switching-instances vpls 2004 remote-tpe 59.59.59.59 static tunnel 51000
+set switching-instances vpls 2004 l2vpn-id 2004
+set interfaces ge-ts2/6 unit 2005 vlan-id-list 2005
+set interfaces ge-ts2/6 unit 2005 family vpls
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2005 ccm-options enable
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2005 ccm-options interval 100ms
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2005 cos 0
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2005 instance 2005
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2005 mep 2105 enable
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2005 mep 2105 direction up
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2005 mep 2105 interface ge-ts2/6.2005
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2005 remote-mep 2005 destination-mac 00:00:00:00:00:00
+set switching-instances vpls 2005 interface ge-ts2/6.2005 role root
+set switching-instances vpls 2005 nms-service-id 2005
+set switching-instances vpls 2005 pw-type ethernet
+set switching-instances vpls 2005 remote-tpe 59.59.59.59 oam cos 7
+set switching-instances vpls 2005 remote-tpe 59.59.59.59 peer-address 59.59.59.59
+set switching-instances vpls 2005 remote-tpe 59.59.59.59 pw-type ethernet
+set switching-instances vpls 2005 remote-tpe 59.59.59.59 static in-pw-label 3105
+set switching-instances vpls 2005 remote-tpe 59.59.59.59 static out-pw-label 3105
+set switching-instances vpls 2005 remote-tpe 59.59.59.59 static tunnel 51000
+set switching-instances vpls 2005 l2vpn-id 2005
+set interfaces ge-ts2/6 unit 2006 vlan-id-list 2006
+set interfaces ge-ts2/6 unit 2006 family vpls
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2006 ccm-options enable
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2006 ccm-options interval 100ms
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2006 cos 0
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2006 instance 2006
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2006 mep 2106 enable
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2006 mep 2106 direction up
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2006 mep 2106 interface ge-ts2/6.2006
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2006 remote-mep 2006 destination-mac 00:00:00:00:00:00
+set switching-instances vpls 2006 interface ge-ts2/6.2006 role root
+set switching-instances vpls 2006 nms-service-id 2006
+set switching-instances vpls 2006 pw-type ethernet
+set switching-instances vpls 2006 remote-tpe 59.59.59.59 oam cos 7
+set switching-instances vpls 2006 remote-tpe 59.59.59.59 peer-address 59.59.59.59
+set switching-instances vpls 2006 remote-tpe 59.59.59.59 pw-type ethernet
+set switching-instances vpls 2006 remote-tpe 59.59.59.59 static in-pw-label 3106
+set switching-instances vpls 2006 remote-tpe 59.59.59.59 static out-pw-label 3106
+set switching-instances vpls 2006 remote-tpe 59.59.59.59 static tunnel 51000
+set switching-instances vpls 2006 l2vpn-id 2006
+set interfaces ge-ts2/6 unit 2007 vlan-id-list 2007
+set interfaces ge-ts2/6 unit 2007 family vpls
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2007 ccm-options enable
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2007 ccm-options interval 100ms
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2007 cos 0
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2007 instance 2007
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2007 mep 2107 enable
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2007 mep 2107 direction up
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2007 mep 2107 interface ge-ts2/6.2007
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2007 remote-mep 2007 destination-mac 00:00:00:00:00:00
+set switching-instances vpls 2007 interface ge-ts2/6.2007 role root
+set switching-instances vpls 2007 nms-service-id 2007
+set switching-instances vpls 2007 pw-type ethernet
+set switching-instances vpls 2007 remote-tpe 59.59.59.59 oam cos 7
+set switching-instances vpls 2007 remote-tpe 59.59.59.59 peer-address 59.59.59.59
+set switching-instances vpls 2007 remote-tpe 59.59.59.59 pw-type ethernet
+set switching-instances vpls 2007 remote-tpe 59.59.59.59 static in-pw-label 3107
+set switching-instances vpls 2007 remote-tpe 59.59.59.59 static out-pw-label 3107
+set switching-instances vpls 2007 remote-tpe 59.59.59.59 static tunnel 51000
+set switching-instances vpls 2007 l2vpn-id 2007
+set interfaces ge-ts2/6 unit 2008 vlan-id-list 2008
+set interfaces ge-ts2/6 unit 2008 family vpls
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2008 ccm-options enable
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2008 ccm-options interval 100ms
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2008 cos 0
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2008 instance 2008
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2008 mep 2108 enable
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2008 mep 2108 direction up
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2008 mep 2108 interface ge-ts2/6.2008
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2008 remote-mep 2008 destination-mac 00:00:00:00:00:00
+set switching-instances vpls 2008 interface ge-ts2/6.2008 role root
+set switching-instances vpls 2008 nms-service-id 2008
+set switching-instances vpls 2008 pw-type ethernet
+set switching-instances vpls 2008 remote-tpe 59.59.59.59 oam cos 7
+set switching-instances vpls 2008 remote-tpe 59.59.59.59 peer-address 59.59.59.59
+set switching-instances vpls 2008 remote-tpe 59.59.59.59 pw-type ethernet
+set switching-instances vpls 2008 remote-tpe 59.59.59.59 static in-pw-label 3108
+set switching-instances vpls 2008 remote-tpe 59.59.59.59 static out-pw-label 3108
+set switching-instances vpls 2008 remote-tpe 59.59.59.59 static tunnel 51000
+set switching-instances vpls 2008 l2vpn-id 2008
+set interfaces ge-ts2/6 unit 2009 vlan-id-list 2009
+set interfaces ge-ts2/6 unit 2009 family vpls
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2009 ccm-options enable
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2009 ccm-options interval 100ms
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2009 cos 0
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2009 instance 2009
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2009 mep 2109 enable
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2009 mep 2109 direction up
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2009 mep 2109 interface ge-ts2/6.2009
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2009 remote-mep 2009 destination-mac 00:00:00:00:00:00
+set switching-instances vpls 2009 interface ge-ts2/6.2009 role root
+set switching-instances vpls 2009 nms-service-id 2009
+set switching-instances vpls 2009 pw-type ethernet
+set switching-instances vpls 2009 remote-tpe 59.59.59.59 oam cos 7
+set switching-instances vpls 2009 remote-tpe 59.59.59.59 peer-address 59.59.59.59
+set switching-instances vpls 2009 remote-tpe 59.59.59.59 pw-type ethernet
+set switching-instances vpls 2009 remote-tpe 59.59.59.59 static in-pw-label 3109
+set switching-instances vpls 2009 remote-tpe 59.59.59.59 static out-pw-label 3109
+set switching-instances vpls 2009 remote-tpe 59.59.59.59 static tunnel 51000
+set switching-instances vpls 2009 l2vpn-id 2009
+set interfaces ge-ts2/6 unit 2010 vlan-id-list 2010
+set interfaces ge-ts2/6 unit 2010 family vpls
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2010 ccm-options enable
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2010 ccm-options interval 100ms
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2010 cos 0
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2010 instance 2010
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2010 mep 2110 enable
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2010 mep 2110 direction up
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2010 mep 2110 interface ge-ts2/6.2010
+set protocols oam ethernet cfm maintenance-domain 0 maintenance-association 2010 remote-mep 2010 destination-mac 00:00:00:00:00:00
+set switching-instances vpls 2010 interface ge-ts2/6.2010 role root
+set switching-instances vpls 2010 nms-service-id 2010
+set switching-instances vpls 2010 pw-type ethernet
+set switching-instances vpls 2010 remote-tpe 59.59.59.59 oam cos 7
+set switching-instances vpls 2010 remote-tpe 59.59.59.59 peer-address 59.59.59.59
+set switching-instances vpls 2010 remote-tpe 59.59.59.59 pw-type ethernet
+set switching-instances vpls 2010 remote-tpe 59.59.59.59 static in-pw-label 3110
+set switching-instances vpls 2010 remote-tpe 59.59.59.59 static out-pw-label 3110
+set switching-instances vpls 2010 remote-tpe 59.59.59.59 static tunnel 51000
+set switching-instances vpls 2010 l2vpn-id 2010

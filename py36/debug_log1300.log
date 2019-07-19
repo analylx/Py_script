@@ -1,0 +1,1409 @@
+DEBUG:paramiko.transport:starting thread (client mode): 0x349ef28
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting password auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1300_Emb.bin', 'wb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1300_Emb.bin', 'wb') -> 00000000
+DEBUG:paramiko.transport:starting thread (client mode): 0x349eeb8
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting password auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1300_Emb.bin', 'wb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1300_Emb.bin', 'wb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/up/NPT1300_Emb.bin')
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x309c1d0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting password auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1300_Emb.bin', 'wb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1300_Emb.bin', 'wb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/up/NPT1300_Emb.bin')
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:starting thread (client mode): 0x3d4c390
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.130.81: b'99d5cb0e812dd125132bb8c134489e89'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "keepalive@openssh.com"
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport:starting thread (client mode): 0x3d3fdd8
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.130.81: b'99d5cb0e812dd125132bb8c134489e89'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:root:b'Last login: Fri Jan 25 17:15:17 2019 from 200.200.1.84\r\r\nconfigure\r\nshow | display-set | save /sdboot/lastone\r\nsync\r\nrun request reset ne\r\nyes\r\n\r\nadmin@13081> configure\r\n\x1b[KEntering configuration mode\r\n\x1b[KUsers currently editing the configuration:\r\n\x1b[K  admin terminal pts/1 (pid 19934) on since Jan 24 15:52, idle 00:04:12\r\n\x1b[K      [edit]\r\n\r\n[edit]\r\nadmin@13081# show | display-set | save /sdboot/lastone \r\n\r\n'
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/lastone')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb') -> 00000000
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x349c1d0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting password auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1300_Emb.bin', 'wb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1300_Emb.bin', 'wb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/up/NPT1300_Emb.bin')
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:starting thread (client mode): 0x3b3c0f0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.130.81: b'504e4cdc081a70ad849a3f8a1c3ed43a'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "keepalive@openssh.com"
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport:starting thread (client mode): 0x3b3c9e8
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.130.81: b'504e4cdc081a70ad849a3f8a1c3ed43a'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:root:b'Last login: Wed Jan 30 18:03:30 2019 from 200.200.1.84\r\r\nconfigure\r\nshow | display-set | save /sdboot/lastone\r\nsync\r\nrun request reset ne\r\n\r\nadmin@npt1300i> configure\r\n\x1b[KEntering configuration mode\r\n\x1b[KUsers currently editing the configuration:\r\n\x1b[K  admin terminal pts/1 (pid 2298) on since Jan 29 11:25, idle 00:02:40\r\n\x1b[K      [edit]\r\n\r\n[edit]\r\nadmin@npt1300i# show | display-set | save /sdboot/lastone \r\n\r\nWrote 426 lines of output to \'/sdboot/lastone\'\r\n\r\n[edit]\r\nadmin@npt1300i# sync\r\n\x1b[Kerror: unknown command "sync"\r\n\r\n[edit]\r\nadmin@npt1300i# run request reset ne\r\n\r\n[WARNING!] This operation is traffic-affecting, it will result in NE restart and NE management will be lost for several minutes, are you sure to continue? [yes,no] (no) yes\r\n\x07\r\r\nBroadcast message from root@npt1300i (Wed Jan 30 18:03:53 2019):\r\r\n\r\r\nSystem will be cold reset, all commit will be block!\r\r\n\r\n[edit]\r\nadmin@npt1300i# '
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/lastone')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb')
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x349c1d0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting password auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1300_Emb.bin', 'wb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1300_Emb.bin', 'wb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/up/NPT1300_Emb.bin')
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:starting thread (client mode): 0x3b6c2b0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.130.81: b'478dcc6cd6ab2230689222d49cf6b1cd'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "keepalive@openssh.com"
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport:starting thread (client mode): 0x3b6c9e8
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.130.81: b'478dcc6cd6ab2230689222d49cf6b1cd'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:root:b'Last login: Thu Jan 31 13:02:35 2019 from 200.200.1.84\r\r\nconfigure\r\nshow | display-set | save /sdboot/lastone\r\nsync\r\nrun request reset ne\r\n\r\nadmin@npt1300i> configure\r\n\x1b[KEntering configuration mode\r\n\x1b[KUsers currently editing the configuration:\r\n\x1b[K  admin terminal pts/1 (pid 9762) on since Jan 30 23:30, idle 02:18:57\r\n\x1b[K      [edit]\r\n\r\n[edit]\r\nadmin@npt1300i# show | display-set | save /sdboot/lastone \r\n\r\nWrote 426 lines of output to \'/sdboot/lastone\'\r\n\r\n[edit]\r\nadmin@npt1300i# sync\r\n\x1b[Kerror: unknown command "sync"\r\n\r\n[edit]\r\nadmin@npt1300i# run request reset ne\r\n\r\n[WARNING!] This operation is traffic-affecting, it will result in NE restart and NE management will be lost for several minutes, are you sure to continue? [yes,no] (no) yes\r\n\x07\r\r\nBroadcast message from root@npt1300i (Thu Jan 31 13:02:58 2019):\r\r\n\r\r\nSystem will be cold reset, all commit will be block!\r\r\n\r\n[edit]\r\nadmin@npt1300i# '
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/lastone')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb') -> 00000000
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x349c1d0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting password auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1300_Emb.bin', 'wb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1300_Emb.bin', 'wb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/up/NPT1300_Emb.bin')
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:starting thread (client mode): 0x395c128
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.130.81: b'f3696229e0913ad8d12c74354dc19a9e'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "keepalive@openssh.com"
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport:starting thread (client mode): 0x394ffd0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.130.81: b'f3696229e0913ad8d12c74354dc19a9e'
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:root:b'Last login: Fri Feb  1 12:00:16 2019 from 200.200.1.84\r\r\nconfigure\r\nshow | display-set | save /sdboot/lastone\r\nsync\r\nrun request reset ne\r\n\r\nadmin@npt1300i> configure\r\n\x1b[KEntering configuration mode\r\n\x1b[KUsers currently editing the configuration:\r\n\x1b[K  admin terminal pts/1 (pid 2600) on since Feb 01 10:33, idle 00:21:25\r\n\x1b[K      [edit]\r\n\r\n[edit]\r\nadmin@npt1300i# show | display-set | save /sdboot/lastone \r\n\r\nWrote 54 lines of output to \'/sdboot/lastone\'\r\n\r\n[edit]\r\nadmin@npt1300i# sync\r\n\x1b[Kerror: unknown command "sync"\r\n\r\n[edit]\r\nadmin@npt1300i# run request reset ne\r\n\r\n[WARNING!] This operation is traffic-affecting, it will result in NE restart and NE management will be lost for several minutes, are you sure to continue? [yes,no] (no) yes\r\n\r\n[edit]\r\nadmin@npt1300i# \x07\r\r\nBroadcast message from root@npt1300i (Fri Feb  1 12:00:38 2019):\r\r\n\r\r\nSystem will be cold reset, all commit will be block!\r\r\n'
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/lastone')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x34dc1d0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting password auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1300_Emb.bin', 'wb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1300_Emb.bin', 'wb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/up/NPT1300_Emb.bin')
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:starting thread (client mode): 0x459c160
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.130.81: b'd23ab69db0b973ec1987cdc8232f6f26'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "keepalive@openssh.com"
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport:starting thread (client mode): 0x459c978
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.130.81: b'd23ab69db0b973ec1987cdc8232f6f26'
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:root:b'Last login: Tue Feb 12 10:25:17 2019 from 200.200.1.84\r\r\nconfigure\r\nshow | display-set | save /sdboot/lastone\r\nsync\r\nrun request reset ne\r\n\r\nadmin@npt1300i> configure\r\n\x1b[KEntering configuration mode\r\n\x1b[KUsers currently editing the configuration:\r\n\x1b[K  admin terminal pts/1 (pid 2863) on since Feb 12 10:10, idle 00:14:58\r\n\x1b[K      [edit]\r\n\r\n[edit]\r\nadmin@npt1300i# show | display-set | save /sdboot/lastone \r\n\r\nWrote 368 lines of output to \'/sdboot/lastone\'\r\n\r\n[edit]\r\nadmin@npt1300i# sync\r\n\x1b[Kerror: unknown command "sync"\r\n\r\n[edit]\r\nadmin@npt1300i# run request reset ne\r\n\r\n[WARNING!] This operation is traffic-affecting, it will result in NE restart and NE management will be lost for several minutes, are you sure to continue? [yes,no] (no) yes\r\n\r\n\x07\r\r\nBroadcast message from root@npt1300i (Tue Feb 12 10:25:40 2019):\r\r\n\r\r\nSystem will be cold reset, all commit will be block!\r\r\n[edit]\r\nadmin@npt1300i# '
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/lastone')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb') -> 00000000
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x53433c8
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting password auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:Received global request "keepalive@openssh.com"
+DEBUG:paramiko.transport:Rejecting "keepalive@openssh.com" global request from server.
+DEBUG:paramiko.transport:Received global request "keepalive@openssh.com"
+DEBUG:paramiko.transport:Rejecting "keepalive@openssh.com" global request from server.
+DEBUG:paramiko.transport:starting thread (client mode): 0x4cafda0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting password auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:Received global request "keepalive@openssh.com"
+DEBUG:paramiko.transport:Rejecting "keepalive@openssh.com" global request from server.
+DEBUG:paramiko.transport:Received global request "keepalive@openssh.com"
+DEBUG:paramiko.transport:Rejecting "keepalive@openssh.com" global request from server.
+DEBUG:paramiko.transport:Received global request "keepalive@openssh.com"
+DEBUG:paramiko.transport:Rejecting "keepalive@openssh.com" global request from server.
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x484fdd8
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting password auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:Received global request "keepalive@openssh.com"
+DEBUG:paramiko.transport:Rejecting "keepalive@openssh.com" global request from server.
+DEBUG:paramiko.transport:starting thread (client mode): 0x4870dd8
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting password auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:Received global request "keepalive@openssh.com"
+DEBUG:paramiko.transport:Rejecting "keepalive@openssh.com" global request from server.
+ERROR:paramiko.transport:Socket exception: 您的主机中的软件中止了一个已建立的连接。 (10053)
+DEBUG:paramiko.transport:starting thread (client mode): 0x4a90da0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting password auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:starting thread (client mode): 0x308c208
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting password auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1300_Emb.bin', 'wb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1300_Emb.bin', 'wb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/up/NPT1300_Emb.bin')
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:starting thread (client mode): 0x3d2c208
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.130.81: b'da3321c2175152f27906db50cbd7106c'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "keepalive@openssh.com"
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport:starting thread (client mode): 0x3d2c9e8
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.130.81: b'da3321c2175152f27906db50cbd7106c'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:root:b'Last login: Tue Feb 12 19:08:44 2019 from 200.200.1.84\r\r\nconfigure\r\nshow | display-set | save /sdboot/lastone\r\nsync\r\nrun request reset ne\r\n\r\nadmin@npt1300i> configure\r\n\x1b[KEntering configuration mode\r\n\x1b[KUsers currently editing the configuration:\r\n\x1b[K  admin terminal pts/1 (pid 3392) on since Feb 12 16:49, idle 00:00:57\r\n\x1b[K      [edit]\r\n\r\n[edit]\r\nadmin@npt1300i# show | display-set | save /sdboot/lastone \r\n\r\nWrote 331 lines of output to \'/sdboot/lastone\'\r\n\r\n[edit]\r\nadmin@npt1300i# sync\r\n\x1b[Kerror: unknown command "sync"\r\n\r\n[edit]\r\nadmin@npt1300i# run request reset ne\r\n\r\n[WARNING!] This operation is traffic-affecting, it will result in NE restart and NE management will be lost for several minutes, are you sure to continue? [yes,no] (no) yes\r\n\r\n[edit]\r\n\x07\r\r\nBroadcast message from root@npt1300i (Tue Feb 12 19:09:06 2019):\r\r\n\r\r\nSystem will be cold reset, all commit will be block!\r\r\nadmin@npt1300i# '
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/lastone')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb')
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x348c208
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting password auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1800_Emb.bin', 'wb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1800_Emb.bin', 'wb') -> 00000000
+DEBUG:paramiko.transport:Rekeying (hit 32633 packets, 536893936 bytes sent)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/up/NPT1800_Emb.bin')
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:starting thread (client mode): 0x393c358
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.180.58: b'de685e4312d83c77b79bada50076e2ef'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "keepalive@openssh.com"
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport:starting thread (client mode): 0x3640c18
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.180.58: b'de685e4312d83c77b79bada50076e2ef'
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:root:b'Last login: Wed Feb 13 09:24:46 2019 from 200.200.1.84\r\r\nconfigure\r\nshow | display-set | save /sdboot/lastone\r\nsync\r\nrun request reset ne\r\n\r\nadmin@npt1800> configure\r\n\x1b[KEntering configuration mode\r\n\x1b[KUsers currently editing the configuration:\r\n\r\n[edit]\r\nadmin@npt1800# show | display-set | save /sdboot/lastone \r\n\r\nWrote 300 lines of output to \'/sdboot/lastone\'\r\n\r\n[edit]\r\nadmin@npt1800# sync\r\n\x1b[Kerror: unknown command "sync"\r\n\r\n[edit]\r\nadmin@npt1800# run request reset ne\r\n\r\n[WARNING!] This operation is traffic-affecting, it will result in NE restart and NE management will be lost for several minutes, are you sure to continue? [yes,no] (no) yes\r\n\x07\r\r\nBroadcast message from root@npt1800 (Wed Feb 13 09:25:09 2019):\r\r\n\r\r\nSystem will be cold reset, all commit will be block!\r\r\n\r\n[edit]\r\nadmin@npt1800# '
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/lastone')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport:starting thread (client mode): 0x348c208
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting password auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1300_Emb.bin', 'wb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1300_Emb.bin', 'wb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/up/NPT1300_Emb.bin')
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:starting thread (client mode): 0x3b4c2b0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.130.81: b'e2d30b6efb378b1fbc6757bc19afaaf4'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "keepalive@openssh.com"
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport:starting thread (client mode): 0x3b4c9e8
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.130.81: b'e2d30b6efb378b1fbc6757bc19afaaf4'
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:root:b'Last login: Wed Feb 13 09:27:34 2019 from 200.200.1.84\r\r\nconfigure\r\nshow | display-set | save /sdboot/lastone\r\nsync\r\nrun request reset ne\r\n\r\nadmin@npt1300i> configure\r\n\x1b[KEntering configuration mode\r\n\x1b[KUsers currently editing the configuration:\r\n\x1b[K  admin terminal pts/1 (pid 21861) on since Feb 13 09:18, idle 00:09:20\r\n\x1b[K      [edit]\r\n\r\n[edit]\r\nadmin@npt1300i# show | display-set | save /sdboot/lastone \r\n\r\nWrote 331 lines of output to \'/sdboot/lastone\'\r\n\r\n[edit]\r\nadmin@npt1300i# sync\r\n\x1b[Kerror: unknown command "sync"\r\n\r\n[edit]\r\nadmin@npt1300i# run request reset ne\r\n\r\n[WARNING!] This operation is traffic-affecting, it will result in NE restart and NE management will be lost for several minutes, are you sure to continue? [yes,no] (no) yes\r\n\r\n\x07\r\r\n[edit]\r\nSystem will be cold reset, all commit will be block!\r\r\nadmin@npt1300i# '
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/lastone')
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x3655278
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting password auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1050_Emb.bin', 'wb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1050_Emb.bin', 'wb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/up/NPT1050_Emb.bin')
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:starting thread (client mode): 0x56f73c8
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.151.56: b'0df13190b5f4eeefcfa50be2c49af336'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "keepalive@openssh.com"
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport:starting thread (client mode): 0x56f77f0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.151.56: b'0df13190b5f4eeefcfa50be2c49af336'
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:root:b'Last login: Wed Feb 13 09:47:14 2019 from 200.200.1.84\r\r\nconfigure\r\nshow | display-set | save /sdboot/lastone\r\nsync\r\nrun request reset ne\r\n\r\nadmin@npt1050i> configure\r\n\x1b[KEntering configuration mode\r\n\x1b[KUsers currently editing the configuration:\r\n\x1b[K  admin terminal pts/1 (pid 7122) on since Feb 12 16:50, idle 13:45:12\r\n\x1b[K      [edit]\r\n\r\n[edit]\r\nadmin@npt1050i# show | display-set | save /sdboot/lastone \r\n\r\nWrote 330 lines of output to \'/sdboot/lastone\'\r\n\r\n[edit]\r\nadmin@npt1050i# sync\r\n\x1b[Kerror: unknown command "sync"\r\n\r\n[edit]\r\nadmin@npt1050i# run request reset ne\r\n\r\n[WARNING!] This operation is traffic-affecting, it will result in NE restart and NE management will be lost for several minutes, are you sure to continue? [yes,no] (no) yes\r\n\x07\r\r\nBroadcast message from root@npt1050i (Wed Feb 13 09:47:37 2019):\r\r\n\r\r\nSystem will be cold reset, all commit will be block!\r\r\n\r\n[edit]\r\nadmin@npt1050i# '
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/lastone')
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x3655278
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting password auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1200_Emb.bin', 'wb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1200_Emb.bin', 'wb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/up/NPT1200_Emb.bin')
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:starting thread (client mode): 0x496c4a8
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.121.52: b'8fe6baf030777065d3f21c5b856e37cd'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "keepalive@openssh.com"
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport:starting thread (client mode): 0x496c7f0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.121.52: b'8fe6baf030777065d3f21c5b856e37cd'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:root:b'Last login: Wed Feb 13 09:49:53 2019 from 200.200.1.84\r\r\nconfigure\r\nshow | display-set | save /sdboot/lastone\r\nsync\r\nrun request reset ne\r\n\r\nadmin@npt1200i> configure\r\n\x1b[KEntering configuration mode\r\n\x1b[KUsers currently editing the configuration:\r\n\x1b[K  admin terminal pts/1 (pid 7155) on since Feb 12 16:49, idle 13:47:51\r\n\x1b[K      [edit]\r\n\r\n[edit]\r\nadmin@npt1200i# show | display-set | save /sdboot/lastone \r\n\r\nWrote 268 lines of output to \'/sdboot/lastone\'\r\n\r\n[edit]\r\nadmin@npt1200i# sync\r\n\x1b[Kerror: unknown command "sync"\r\n\r\n[edit]\r\nadmin@npt1200i# run request reset ne\r\n\r\n[WARNING!] This operation is traffic-affecting, it will result in NE restart and NE management will be lost for several minutes, are you sure to continue? [yes,no] (no) yes\r\n\x07\r\r\nBroadcast message from root@npt1200i (Wed Feb 13 09:50:16 2019):\r\r\n\r\r\n\r\n[edit]\r\nadmin@npt1200i# '
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/lastone')
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x3655278
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting password auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1800_Emb.bin', 'wb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1800_Emb.bin', 'wb') -> 00000000
+DEBUG:paramiko.transport:Rekeying (hit 32633 packets, 536893936 bytes sent)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/up/NPT1800_Emb.bin')
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:starting thread (client mode): 0x562c390
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.180.58: b'f4bc9c964605187b5a82f41259ca0c21'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "keepalive@openssh.com"
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport:starting thread (client mode): 0x561d940
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.180.58: b'f4bc9c964605187b5a82f41259ca0c21'
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:root:b'Last login: Wed Feb 13 10:03:59 2019 from 200.200.1.84\r\r\nconfigure\r\nshow | display-set | save /sdboot/lastone\r\nsync\r\nrun request reset ne\r\n\r\nadmin@npt1800> configure\r\n\x1b[KEntering configuration mode\r\n\x1b[KUsers currently editing the configuration:\r\n\x1b[K  admin terminal pts/0 (pid 2434) on since Feb 13 09:58, idle 00:00:28\r\n\x1b[K      [edit]\r\n\r\n[edit]\r\nadmin@npt1800# show | display-set | save /sdboot/lastone \r\n\r\nWrote 300 lines of output to \'/sdboot/lastone\'\r\n\r\n[edit]\r\nadmin@npt1800# sync\r\n\x1b[Kerror: unknown command "sync"\r\n\r\n[edit]\r\nadmin@npt1800# run request reset ne\r\n\r\n[WARNING!] This operation is traffic-affecting, it will result in NE restart and NE management will be lost for several minutes, are you sure to continue? [yes,no] (no) yes\r\n\x07\r\r\nBroadcast message from root@npt1800 (Wed Feb 13 10:04:21 2019):\r\r\n\r\r\nSystem will be cold reset, all commit will be block!\r\r\n\r\n[edit]\r\nadmin@npt1800# '
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/lastone')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x3655278
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting password auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1050_Emb.bin', 'wb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1050_Emb.bin', 'wb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/up/NPT1050_Emb.bin')
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:starting thread (client mode): 0x492c2b0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.151.56: b'ee4a15bbcf195cbb4c8467f1a27a741b'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "keepalive@openssh.com"
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport:starting thread (client mode): 0x491da90
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.151.56: b'ee4a15bbcf195cbb4c8467f1a27a741b'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:root:b'configure\r\nLast login: Wed Feb 13 10:06:35 2019 from 200.200.1.84\r\r\nshow | display-set | save /sdboot/lastone\r\nsync\r\nrun request reset ne\r\nyes\r\n\r\nadmin@npt1050i> configure\r\n\x1b[KEntering configuration mode\r\n\x1b[KUsers currently editing the configuration:\r\n\r\n[edit]\r\nadmin@npt1050i# show | display-set | save /sdboot/lastone \r\n\r\nWrote 330 lines of output to \'/sdboot/lastone\'\r\n\r\n[edit]\r\nadmin@npt1050i# sync\r\n\x1b[Kerror: unknown command "sync"\r\n\r\n[edit]\r\nadmin@npt1050i# run request reset ne\r\n\r\n[WARNING!] This operation is traffic-affecting, it will result in NE restart and NE management will be lost for several minutes, are you sure to continue? [yes,no] (no) yes\r\n\r\n[edit]\r\nadmin@npt1050i# \x07\r\r\nBroadcast message from root@npt1050i (Wed Feb 13 10:07:00 2019):\r\r\n\r\r\nSystem will be cold reset, all commit will be block!\r\r\n'
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/lastone')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x3655278
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting password auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1200_Emb.bin', 'wb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1200_Emb.bin', 'wb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/up/NPT1200_Emb.bin')
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:starting thread (client mode): 0x55e73c8
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.121.52: b'66649cbb23b4bb5104feb38a6c0a6cd1'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "keepalive@openssh.com"
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport:starting thread (client mode): 0x55e7358
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.121.52: b'66649cbb23b4bb5104feb38a6c0a6cd1'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:root:b'Last login: Wed Feb 13 10:20:15 2019 from 200.200.1.84\r\r\nconfigure\r\nshow | display-set | save /sdboot/lastone\r\nsync\r\nrun request reset ne\r\n\r\nadmin@npt1200i> configure\r\n\x1b[KEntering configuration mode\r\n\x1b[KUsers currently editing the configuration:\r\n\r\n[edit]\r\nadmin@npt1200i# show | display-set | save /sdboot/lastone \r\n\r\nWrote 268 lines of output to \'/sdboot/lastone\'\r\n\r\n[edit]\r\nadmin@npt1200i# sync\r\n\x1b[Kerror: unknown command "sync"\r\n\r\n[edit]\r\nadmin@npt1200i# run request reset ne\r\n\r\n[WARNING!] This operation is traffic-affecting, it will result in NE restart and NE management will be lost for several minutes, are you sure to continue? [yes,no] (no) yes\r\n\x07\r\r\nBroadcast message from root@npt1200i (Wed Feb 13 10:20:37 2019):\r\r\n\r\r\nSystem will be cold reset, all commit will be block!\r\r\n\r\n[edit]\r\nadmin@npt1200i# '
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/lastone')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb')
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x3655278
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting password auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1050_Emb.bin', 'wb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1050_Emb.bin', 'wb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "keepalive@openssh.com"
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "keepalive@openssh.com"
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "keepalive@openssh.com"
+DEBUG:paramiko.transport:starting thread (client mode): 0x3655278
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting password auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1050i_Emb.bin', 'wb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1050i_Emb.bin', 'wb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/up/NPT1050i_Emb.bin')
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:starting thread (client mode): 0x3fbc240
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.151.56: b'd13e99f584fa9ff58e01365a6e842eb3'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "keepalive@openssh.com"
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport:starting thread (client mode): 0x3fbc7b8
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.151.56: b'd13e99f584fa9ff58e01365a6e842eb3'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:root:b'Last login: Wed Feb 13 10:53:33 2019 from 200.200.1.84\r\r\nconfigure\r\nshow | display-set | save /sdboot/lastone\r\nsync\r\nrun request reset ne\r\n\r\nadmin@npt1050i> configure\r\n\x1b[KEntering configuration mode\r\n\x1b[KUsers currently editing the configuration:\r\n\r\n[edit]\r\nadmin@npt1050i# show | display-set | save /sdboot/lastone \r\n\r\nWrote 330 lines of output to \'/sdboot/lastone\'\r\n\r\n[edit]\r\nadmin@npt1050i# sync\r\n\x1b[Kerror: unknown command "sync"\r\n\r\n[edit]\r\nadmin@npt1050i# run request reset ne\r\n\r\n[WARNING!] This operation is traffic-affecting, it will result in NE restart and NE management will be lost for several minutes, are you sure to continue? [yes,no] (no) yes\r\n\r\n[edit]\r\nadmin@npt1050i# \x07\r\r\nBroadcast message from root@npt1050i (Wed Feb 13 10:53:56 2019):\r\r\n\r\r\nSystem will be cold reset, all commit will be block!\r\r\n'
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/lastone')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb')
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x3655278
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting password auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1200i_Emb.bin', 'wb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/up/NPT1200i_Emb.bin', 'wb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/up/NPT1200i_Emb.bin')
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:starting thread (client mode): 0x5aac3c8
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.121.52: b'085f237abaf4d5cbe1800eee4fcb295c'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "keepalive@openssh.com"
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport:starting thread (client mode): 0x5aac7f0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_6.2
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha256'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] server mac:['hmac-sha1', 'umac-64@openssh.com', 'hmac-ripemd160', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 200.200.121.52: b'085f237abaf4d5cbe1800eee4fcb295c'
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:root:b'Last login: Wed Feb 13 11:07:27 2019 from 200.200.1.84\r\r\nconfigure\r\nshow | display-set | save /sdboot/lastone\r\nsync\r\nrun request reset ne\r\n\r\nadmin@npt1200i> configure\r\n\x1b[KEntering configuration mode\r\n\x1b[KUsers currently editing the configuration:\r\n\r\n[edit]\r\nadmin@npt1200i# show | display-set | save /sdboot/lastone \r\n\r\nWrote 268 lines of output to \'/sdboot/lastone\'\r\n\r\n[edit]\r\nadmin@npt1200i# sync\r\n\x1b[Kerror: unknown command "sync"\r\n\r\n[edit]\r\nadmin@npt1200i# run request reset ne\r\n\r\n[WARNING!] This operation is traffic-affecting, it will result in NE restart and NE management will be lost for several minutes, are you sure to continue? [yes,no] (no) yes\r\n\x07\r\r\nBroadcast message from root@npt1200i (Wed Feb 13 11:07:50 2019):\r\r\n\r\r\nSystem will be cold reset, all commit will be block!\r\r\n\r\n[edit]\r\nadmin@npt1200i# '
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/sdboot/lastone')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/sdboot/lastone', 'rb') -> 00000000
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:EOF in transport thread
